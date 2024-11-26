@@ -15,7 +15,6 @@ const checkLoginStatus = () => {
         document.querySelector('.login-form').classList.add('hidden');
 
         window.location.href = '/deal-list.html';
-        window.location.reload();
     } else {
         document.querySelector('.login-form').classList.remove('hidden');
     }
